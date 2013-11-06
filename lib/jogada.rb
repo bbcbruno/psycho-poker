@@ -40,7 +40,4 @@ class Resultado
 	 PAIR = {2 => "one pair (1 par)"}
 	 HIGHEST_CARD = {1 => "highest-card (maior carta)"}
 
-	def self.get(jogo)
-		@values[jogo]
-	end	
 end
